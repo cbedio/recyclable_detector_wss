@@ -1,0 +1,2 @@
+set(rosserial_msgs_MESSAGE_FILES "/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_arduino/src/rosserial/rosserial_msgs/msg/Log.msg;/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_arduino/src/rosserial/rosserial_msgs/msg/TopicInfo.msg")
+set(rosserial_msgs_SERVICE_FILES "/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_arduino/src/rosserial/rosserial_msgs/srv/RequestParam.srv")

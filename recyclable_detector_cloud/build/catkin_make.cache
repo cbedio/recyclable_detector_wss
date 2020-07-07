@@ -1,0 +1,2 @@
+recyclable_cloud_check
+-DCATKIN_DEVEL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_cloud/devel -DCMAKE_INSTALL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_cloud/install -G Unix Makefiles

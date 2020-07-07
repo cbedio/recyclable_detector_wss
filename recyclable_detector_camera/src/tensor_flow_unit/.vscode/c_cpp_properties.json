@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_camera/src/cv_detect_recyclables/include/**",
+        "/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_camera/src/recyclable_detector_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

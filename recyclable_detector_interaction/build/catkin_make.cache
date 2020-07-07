@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_interaction/devel -DCMAKE_INSTALL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_interaction/install -G Unix Makefiles

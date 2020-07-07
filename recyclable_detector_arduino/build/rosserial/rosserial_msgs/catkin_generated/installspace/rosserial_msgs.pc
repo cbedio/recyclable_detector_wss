@@ -1,0 +1,8 @@
+prefix=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_arduino/install
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.8.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

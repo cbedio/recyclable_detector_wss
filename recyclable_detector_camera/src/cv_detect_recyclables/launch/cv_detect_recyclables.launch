@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot_prefix" default=""/>
+	
+	<node pkg="cv_detect_recyclables" type="cv_detect_recyclables" name="cv_detect_recyclables" output="screen">
+		<param name="image_sub_name" value="/camera/ir/image_rect_ir"/>
+		<param name="image_pub_name" value="/image_converter/output_video"/>
+	</node>
+</launch>

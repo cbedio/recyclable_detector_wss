@@ -1,0 +1,2 @@
+cv_detect_recyclables:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:recyclable_detector_camera:tensor_flow_unit
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_camera/devel -DCMAKE_INSTALL_PREFIX=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_camera/install -G Unix Makefiles

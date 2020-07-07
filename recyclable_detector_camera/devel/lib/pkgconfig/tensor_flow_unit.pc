@@ -1,0 +1,8 @@
+prefix=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_camera/devel
+
+Name: tensor_flow_unit
+Description: Description of tensor_flow_unit
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

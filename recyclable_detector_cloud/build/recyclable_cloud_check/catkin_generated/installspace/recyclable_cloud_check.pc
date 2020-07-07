@@ -1,0 +1,8 @@
+prefix=/home/samuelc/dev/recyclable_detector_wss/recyclable_detector_cloud/install
+
+Name: recyclable_cloud_check
+Description: Description of recyclable_cloud_check
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

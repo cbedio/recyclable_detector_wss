@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find tensor_flow_unit)/config/config.yaml" />
+    <include file="$(find recyclable_detector_camera)/launch/recyclable_detector_camera.launch"/>
+    <node pkg="image_transport" type="republish" name="republish" output="screen" args="compressed in:=/camera/rgb/image_raw out:=/camera/image_raw" />
+    <node pkg="tensor_flow_unit" type="tensor_flow_unit.py" name="tensor_flow_detection" output="screen"/>
+</launch>
